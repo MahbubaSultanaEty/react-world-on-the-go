@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { use } from 'react';
 import Country from '../country/Country';
 import './countries.css'
 
 const Countries = ({ countriesPromise }) => {
+    const [visitedCountries, setVisitedCountries] =useState([])
     const countriesData = use(countriesPromise);
     const countries= countriesData.countries
     console.log(countries)
