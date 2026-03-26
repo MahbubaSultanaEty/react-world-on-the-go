@@ -8,3 +8,12 @@
 .country-visited{
     background-color: green;
 }
+
+.btn-div{
+    display: flex;
+    justify-content: space-between;
+}
+.flag-images{
+    height: 150px;
+    width: 220px;
+}
